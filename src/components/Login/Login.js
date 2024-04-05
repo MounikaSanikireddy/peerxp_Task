@@ -13,7 +13,7 @@ import { useNavigate ,Link} from "react-router-dom"
         let userData=JSON.parse(localStorage.getItem("user"))
         console.log(userData)
         let text=document.getElementById("text")
-        if(userData.email===form.email&&userData.password=form.password)
+        if(userData.email===form.email&&userData.password===form.password)
        {
         
         text.innerText="Login Success"
