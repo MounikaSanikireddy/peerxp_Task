@@ -1,6 +1,6 @@
 
 import { combineReducers } from "redux";
-import { CREATE_ITEM, DELETE_ITEM,UPDATE_ITEM ,FILTER_ITEMS_BY_NAME} from './action/actionType';
+import { CREATE_ITEM, DELETE_ITEM,UPDATE_ITEM } from './action/actionType';
 import { v4 as uuidv4 } from 'uuid';
 const initialState = {
   formData: [],
