@@ -14,6 +14,7 @@ import { useNavigate } from "react-router-dom"
             let text=document.getElementById("data")
             text.innerText="User Registerd Succesfully"
             let login=localStorage.setItem("user",JSON.stringify(form))
+            console.log(login)
             navigate("/login")
         }
     }
