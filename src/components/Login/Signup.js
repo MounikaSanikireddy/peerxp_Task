@@ -10,7 +10,7 @@ import { useNavigate } from "react-router-dom"
     const submitHandler=(e)=>{
         e.preventDefault()
         console.log(form)
-        if(form.email!=""||form.password!=""){
+        if(form.email!==""||form.password!==""){
             let text=document.getElementById("data")
             text.innerText="User Registerd Succesfully"
             let login=localStorage.setItem("user",JSON.stringify(form))
